@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+.homeContainer{
+    font-family: 'Bitter', serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #006ba7;
+    padding: 20px;
+}
+
+.homeContainer h1{
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-top: 60px;
+}
+.homeContainer p a{
+    color: white;
+}
+.homeContainer p {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0 37px 0;
+}
+.login{
+    padding: 9px 50px;
+    font-size: 14px;
+    border-radius: 4px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.signup{
+    padding: 9px 50px;
+    font-size: 14px;
+    border-radius: 4px;
+    background: white;
+    border: 1px solid white;
+    color: #006ba7;
+    text-decoration: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.signup:hover{
+    background: transparent;
+    color: white;
+}
+.login:hover{
+    color: #006ba7;
+    background: white;
+}
+
+@media screen and (max-width: 365px) {
+    .login,.signup{
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+}
